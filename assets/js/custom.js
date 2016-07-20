@@ -57,8 +57,8 @@ $(function(){
             Backstretch Background Slider
     =========================================================================*/
     $("#welcome").backstretch([
-        "assets/images/GTMS_Team.jpg",
-        "assets/images/GTMS_Team.jpg",
+        "assets/images/GTMS_Team1.jpg",
+        "assets/images/GTMS_Team1.jpg",
         // "assets/images/your_pic.jpg" 
     ], {duration: 5000, fade: 400});
 
