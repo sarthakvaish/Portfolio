@@ -24,6 +24,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <style type="text/css">
+    	.slick-prev:before,
+    	.slick-next:before {
+       		color: black;
+    	}
+ 	</style>
+
 </head>
 
 <body>
@@ -121,6 +130,45 @@
 						<p>At the end of the year, we came close to our design goal: coming in 12th, but fell short of our Top 20 finish as we finished 43rd because we couldn't finish the Endurance race. </p>
 						<p>Here are some pictures from one of the greatest experiences in my college career:</p>
 						
+						<div style="width: 50%; margin: auto">
+						<div class="slick-carousel">
+							<img src="assets/images/GTMS Pictures/1.jpg">
+							<img src="assets/images/GTMS Pictures/5.jpg">
+							<img src="assets/images/GTMS Pictures/14.jpg">
+							<img src="assets/images/GTMS Pictures/15.jpg">
+							<img src="assets/images/GTMS Pictures/16.jpg">
+							<img src="assets/images/GTMS Pictures/17.jpg">
+							<img src="assets/images/GTMS Pictures/18.jpg">
+							<img src="assets/images/GTMS Pictures/19.jpg">
+							<img src="assets/images/GTMS Pictures/20.jpg">
+							<img src="assets/images/GTMS Pictures/21.jpg">
+							<img src="assets/images/GTMS Pictures/22.jpg">
+							<img src="assets/images/GTMS Pictures/23.jpg">
+							<img src="assets/images/GTMS Pictures/24.jpg">
+							<img src="assets/images/GTMS Pictures/29.jpg">
+							<img src="assets/images/GTMS Pictures/32.jpg">
+							<img src="assets/images/GTMS Pictures/33.jpg">
+							<img src="assets/images/GTMS Pictures/34.jpg">
+							<img src="assets/images/GTMS Pictures/36.jpg">
+							<img src="assets/images/GTMS Pictures/37.jpg">
+							<img src="assets/images/GTMS Pictures/38.jpg">
+							<img src="assets/images/GTMS Pictures/39.jpg">
+							<img src="assets/images/GTMS Pictures/41.jpg">
+							<img src="assets/images/GTMS Pictures/42.jpg">
+							<img src="assets/images/GTMS Pictures/43.jpg">
+							<img src="assets/images/GTMS Pictures/44.jpg">
+							<img src="assets/images/GTMS Pictures/45.jpg">
+							<img src="assets/images/GTMS Pictures/47.jpg">
+							<img src="assets/images/GTMS Pictures/48.jpg">
+							<img src="assets/images/GTMS Pictures/49.jpg">
+							<img src="assets/images/GTMS Pictures/50.jpg">
+							<img src="assets/images/GTMS Pictures/51.jpg">
+							<img src="assets/images/GTMS Pictures/56.jpg">
+							<img src="assets/images/GTMS Pictures/57.jpg">
+
+
+						</div>
+						</div>
 
 					</div>
 				</div>
@@ -145,6 +193,22 @@
 <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="assets/js/custom.js"></script>
 <script type="text/javascript" src="assets/js/smoothscroll.min.js"></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.slick-carousel').slick({
+	  		infinite: true,
+	  		slidesToShow: 1,
+	  		autoplay: true,
+	  		slidesToScroll: 1,
+	  		adaptiveHeight: true
+		});
+	});
+</script>
 
 </body>
 </html>
